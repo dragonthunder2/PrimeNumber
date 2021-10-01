@@ -129,7 +129,7 @@ public class Solution {
     public boolean equals(Object obj) {
         if (obj instanceof Solution) {
             Solution other = (Solution) obj;
-            if (this.subtract(other) == 0) {
+            if (this.subtract(other).equals(0)) {
                 return true;
             }
             return false;
